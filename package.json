@@ -1,0 +1,41 @@
+{
+  "name": "boiler",
+  "version": "0.1.0",
+  "description": "Wrapper for commander for creating custom tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "boiler": "lib/boiler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aminmeyghani/boiler.git"
+  },
+  "author": "Amin Meyghani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aminmeyghani/boiler/issues"
+  },
+  "homepage": "https://github.com/aminmeyghani/boiler",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "chip": "0.0.5",
+    "colors": "^1.1.0",
+    "commander": "^2.8.1",
+    "connect": "^3.3.5",
+    "fs-extra": "^0.18.2",
+    "glob": "^5.0.5",
+    "handlebars": "^3.0.3",
+    "http": "0.0.0",
+    "inquirer": "^0.8.2",
+    "jsonfile": "^2.0.0",
+    "ngrok": "^0.1.99",
+    "path": "^0.11.14",
+    "prompt": "^0.2.14",
+    "serve-index": "^1.6.3",
+    "serve-static": "^1.9.2",
+    "shelljs": "^0.4.0"
+  }
+}

@@ -1,0 +1,34 @@
+# Serve #
+
+There are two flavors of `serve` that you can use:
+- with prompt
+- without prmpt
+
+## With Prompt ##
+
+To use the command, just do:
+	boiler serve
+
+Then it will ask you for a port number. You can choose a value from 8000 to 9000. If you choose 8989
+for example, then you can see the server at `http://localhost:8989`
+
+After that, will ask you for the folder that you want to serve. You can either drag and drop the
+folder to the terminal and hit enter, or you can put in the path relative to the current path that
+you are in. So if you are running the command for a folder that has another folder with the name
+`public`, you can just put in `./public`. You can specify relative paths just like that:
+`../public`, `./public.main` and so on.
+
+## Wihtout the Prompt ##
+
+The command format is:
+	boiler s path -p portnumber
+
+where:
+	s: is the serve command without prompt
+	path: path to the folder that you want to serve.
+	-p: specifies that port number
+
+Example:
+	boiler s ./public -p 5000
+
+Starts the serve at `./public` at port 5000.
